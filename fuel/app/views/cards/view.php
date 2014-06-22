@@ -1,28 +1,28 @@
 <h2>Viewing <span class='muted'>#<?php echo $card->id; ?></span></h2>
 
 <p>
-	<strong>Person name:</strong>
+	<strong>名前:</strong>
 	<?php echo $card->person->lastname.' '.$card->person->firstname; ?></p>
 <p>
-	<strong>Company name:</strong>
+	<strong>会社名:</strong>
 	<?php echo $card->company->company_name; ?></p>
 <p>
-	<strong>Department:</strong>
+	<strong>部署:</strong>
 	<?php echo $card->department; ?></p>
 <p>
-	<strong>Position:</strong>
+	<strong>役職:</strong>
 	<?php echo $card->position; ?></p>
 <p>
-	<strong>Postcode:</strong>
+	<strong>郵便番号:</strong>
 	<?php echo $card->postcode; ?></p>
 <p>
-	<strong>Address:</strong>
+	<strong>住所:</strong>
 	<?php echo $card->address; ?></p>
 <p>
-	<strong>Email:</strong>
+	<strong>E-Mail:</strong>
 	<?php echo $card->email; ?></p>
 <p>
-	<strong>Tel:</strong>
+	<strong>電話番号:</strong>
 	<?php echo $card->tel; ?></p>
 <p>
 	<strong>Fax:</strong>

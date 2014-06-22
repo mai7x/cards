@@ -4,14 +4,14 @@
 <table class="table table-striped">
 	<thead>
 		<tr>
-			<th>Person</th>
-			<th>Company</th>
-			<th>Department</th>
-			<th>Position</th>
-			<th>Postcode</th>
-			<th>Address</th>
-			<th>Email</th>
-			<th>Tel</th>
+			<th>名前</th>
+			<th>会社名</th>
+			<th>部署</th>
+			<th>役職</th>
+			<th>郵便番号</th>
+			<th>住所</th>
+			<th>E-Mail</th>
+			<th>電話番号</th>
 			<th>&nbsp;</th>
 		</tr>
 	</thead>
