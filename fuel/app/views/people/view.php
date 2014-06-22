@@ -24,7 +24,7 @@
 		<tr>
 			<th>会社名</th>
 			<th>部署名</th>
-			<th>Tel</th>
+			<th>電話 </th>
 			<th>Email</th>
 			<th>&nbsp;</th>
 		</tr>
