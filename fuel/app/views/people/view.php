@@ -40,5 +40,14 @@
 
 <?php endforeach; ?>
 </table>
+
+<?php
+echo Form::open('cards/create',
+	array("person_id" =>$person->id ) //hiddenフォームを設定
+	);
+echo Form::submit('','Add new card', array('class' => 'btn btn-success'));
+echo Form::close();
+ ?>
+
 <?php echo Html::anchor('people/edit/'.$person->id, 'Edit'); ?> |
 <?php echo Html::anchor('people', 'Back'); ?>
