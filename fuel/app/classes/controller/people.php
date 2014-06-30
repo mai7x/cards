@@ -30,7 +30,7 @@ class Controller_People extends Controller_Template{
 		{
 			$val = Model_Person::validate('create');
 			
-			if ($val->run())
+			if ($val->run()) //POSTに対してValidationを実行
 			{
 				$person = Model_Person::forge(array(
 					'lastname' => Input::post('lastname'),

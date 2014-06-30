@@ -10,6 +10,7 @@ return array(
 				1 => '002_rename_table_persons_to_people',
 				2 => '003_create_companies',
 				3 => '004_create_cards',
+				4 => '005_create_users',
 			),
 		),
 		'module' => 

@@ -23,6 +23,19 @@ echo html_tag('a', array(
 		<div class="col-md-12">
 			<h1><?php echo $title; ?></h1>
 			<hr>
+
+<!-- ログイン -->
+<?php if (isset($user_info))
+	{ // ユーザ情報があるとき
+		echo 'Your name is '.$user_info;
+	}
+	else
+	{ //ログインしていない時
+		$link = array(Html::anchor('users/login', 'Login'),Html::anchor('users/register','Register'));
+		echo Html::ul($link);
+	}
+?>
+
 <?php if (Session::get_flash('success')): ?>
 			<div class="alert alert-success">
 				<strong>Success</strong>
